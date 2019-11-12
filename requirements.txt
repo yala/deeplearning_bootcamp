@@ -1,0 +1,8 @@
+sklearn
+scipy
+matplotlib
+numpy
+ipython
+ipykernel
+jupyter
+tqdm
