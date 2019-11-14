@@ -27,7 +27,15 @@ As you follow the tutorial, make sure to take note of the key architectural and 
 6. Change from word inputs to character inputs. The tokens ["this", "is", "good"] should now be ["t", "h", "i", "s", " ", ...].
 
 ## Lab 4: Advanced Neural Networks and Transfer Learning for Vision and Final Exercises
-Details to be posted on Thursday.
+In this [tutorial](lab4/advanced_vision_tutorial.ipynb), we'll walk through how to implement custom CNNs and use pretrained state-of-the-art CNNs.
+
+After the tutorial, you'll choose from a variety of possible exercises.
+1. The Computer Vision [exercise](lab4/advanced_vision_exercise.ipynb), where you try to find the best network for CIFAR10.
+2. The advanced chem-prop [exercise](lab4/final_property_prediction_exercise.ipynb), where you can apply RNNs, CNNs, or Transformers to molecules.
+3. Further extend the NLP work from a previous lab.
+
+Solutions are available in the lab4 [folder](lab4)
+
 
 ## Running the labs
 The labs are Google Colaboratory notebooks, so just click the `View in Colaboratory` link on the notebook, and you should be all set!
