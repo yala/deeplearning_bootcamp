@@ -14,7 +14,17 @@ First, we'll walk through the [PyTorch tutorial](https://github.com/yala/deeplea
 2. A natural language inference (NLI) exercise (but this time with neural networks), where the [task](https://www.nyu.edu/projects/bowman/multinli/) is to predict if a pair of sentences constitute an entailement, a contradiction, or neither. Here is the [exercise]() and [sample solution]().
 
 ## Lab 3: Advanced Neural Networks and Transfer Learning for NLP
-Details to be posted on Thursday.
+
+In this lab we'll slowly work through a CNN and RNN [tutorial](lab3/rnn_and_cnn_tutorial.ipynb). It be using the beer review sentiment analysis task as the motivating task.
+
+As you follow the tutorial, make sure to take note of the key architectural and implementation aspects! After you have finished try making the following list of modifications:
+
+1. Change all activations from `tanh`.
+2. Change the learning rate, starting from high (~1) to small (~1e-6). How does this affect the training dynamics?
+3. Give the MLP an extra layer.
+4. Change max pooling to mean pooling in the RNN.
+5. Give the CNN an extra convolutional layer.
+6. Change from word inputs to character inputs. The tokens ["this", "is", "good"] should now be ["t", "h", "i", "s", " ", ...].
 
 ## Lab 4: Advanced Neural Networks and Transfer Learning for Vision and Final Exercises
 Details to be posted on Thursday.
